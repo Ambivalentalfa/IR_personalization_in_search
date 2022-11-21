@@ -1,1 +1,4 @@
 mail of sucessfully created users:
+IRuser11@outlook.com - IRpassword11!
+IRuser12@outlook.com - IRpassword12!
+IRuser_13@outlook.com - IRpassword13!

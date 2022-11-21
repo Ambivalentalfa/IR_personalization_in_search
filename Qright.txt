@@ -1,81 +1,64 @@
->News
-el mundo 
-abc (monarquic)
-la vanguardia
-el el espanol
-La la razon
-Expansión (economic magazine)
-el confidencial
-Libertad digital
-vatican news 
-diario catolico 
-PP
-Tele 1
-Tele 2
-Telecinco
-Antena3
-La cope (eclesiastic)
-Vox 
-Ciudadanos (political party)
-illegal immigration
-Baiden
-Georgetown University (jesuit)
-Jesuits.org
-news usa 
-news uk
-how much money spain gives to europe?
-from where is the fruit we buy?
-importation and exportation of spanish products
-why there are less marriages
-immigration policy (Gibraltar)
+ >News
+El mundo
+ABC
+La vanguardia
+El español
+La razon
+Libertad Digital
+Noticias El Varicano
+Periodico Catolico
+Partido Popular España
+La Cope
+Vox
+Ciudadanos partido politico
+Universidad Georgetown
+Cuanto dinero da España a Europa?
+Importacion y exportacion productos españoles
 >Lifestyle
-hunting in *insert area*
-bull fights (corridas de toros)
-buy guns / ammunition
-buy spanish flag 
-real madrid 
-Joaquin Sabina 
+Cotos de caza en Valladolid
+Fechas corridas de toros
+Comprar armas y municion
+Comprar bandera española
+Real Madrid Club
+Joaquin Sabina
 Mecano
 Hombres G
-pro vida (anti abortion association)
-best private schools in *insert city name*
-spanish meat restaurants
-Steak dishes (morcilla, torreznos, callos)
-Conversion therapy *insert city* (too harsh?)
-nike new shoes 
-balenciaga shops
-ralph lauren shops
-Eucaristía 
-ESADE (university)
+Pro-vida sociedad anti aborción
+comprar morcilla torreznos callos
+donde hacer terapia de conversion
+nuevos zapatos Nike
+Universidad ESADE
 Universidad de Navarra
-Universidad Marqués de Comillas
+Universidad Marques de Comillas
 >Humanities
-spain's day (dia de la hispanidad)
-Opus Dei 
-Madre Patria (book)
-Tiempo de hormigas (book)
-La alegría, también de noche (book) 
-Tú me salvas (book)
-America debilitada (book)
-TRUMP: HOW TO GET RICH (book)
-la reconquista (storic period)
-accion cultural espanola (spanish association)
-spain best monuments
-diego velazquez mejores operas
-michelangelo la capilla sistina
+Dia de la Hispanidad
+Madre Patria libro
+Tiempo de hormigas libro
+La alegria, tambien de noche libro
+Tu me salvas libro
+America debilitada libro
+TRUMP: how to get rich?
+Periodo de la reconquista
+Accion cultural española asociacion
+Mejores monumentos españa
 Blas de Otero
-Gabriel Celaya      
+Gabriel Celaya
+Expansion revista
+Jesuits.org
+Como impedir que lleguen mas immigrantes
 >Other
-consequences of vaccines 
-spain's best research centers
-can religion beat science
-creation science
-intelligent design
-Elon Musk 
-california silicon valley
-spanish top industry
+Consecuencias vacunas
+La religión gana a la ciencia
 Florentino Perez
 Amancio Ortega
-newest discoveries on engines  
-benefits of having married parents
-children need both a mother and a father     
+Beneficios de tener padres casados
+No al divorcio
+De donde es la fruta que compramos?
+Los niños necesita una madre y un padre
+Elon Musk
+Porque menos gente se casa?
+Joe Biden
+Opus Dei
+Eucaristia
+Silicon Valley california
+Ultimas noticias sobre motores

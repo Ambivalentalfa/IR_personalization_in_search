@@ -6,6 +6,10 @@ IRuser14@outlook.com - IRpassword14!
 IRuser_1@outlook.com - IRpassword1!
 IRuser_2@outlook.com - IRpassword2!
 IRuser_3@outlook.com - IRpassword3!
-IRuser_4@outlook.com - IRpasswordx!
-IRuser_5@outlook.com - IRpasswordx!
+IRuser_4@outlook.com - IRpassword4!
+IRuser_5@outlook.com - IRpassword5!
 IRuser_6@outlook.com - IRpassword6!
+IRuser_7@outlook.com - IRpassword7!
+IRuser_8@outlook.com - IRpassword8!
+
+#if it asks for a vericifation email, it is user_1

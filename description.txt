@@ -1,0 +1,33 @@
+users:
+ - females, 1992, Spain
+ - VPN, location Madrid
+ - 10 users rw and 10 lw
+browsing session:
+ - 1 right, 1 left
+ - 4 days, two browsing sessions per day
+ - 2 random queries per category
+ - 2 or 3 urls for each query
+ - between 10 and 15 sec for each url
+ - save the urls visited for each query
+
+environmental browsing session:
+ - all the queries are visited, 10 for each users, 5 general and 5 biased
+ - top 10 ranked results for each query are saved
+ - one session before starting the training and one at the end
+
+results dictionary:
+results{
+ user id:dict{
+    username: username
+    password: password
+    session_id_value:{
+        query_value: [links visited for the query] }
+ } ...
+}
+one for left, one for right, 60 sec between each other
+
+environment results dictionary:
+user_id:dict{username: .. , password: .. , session_id: {query : [top 10 results ranked]}}
+one for left one for right, 60 sec between each other
+the first 5 queries are the general the last 5 are the biased
+

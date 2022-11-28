@@ -8,19 +8,28 @@ import random
 import json
 from selenium.webdriver.chrome.service import Service
 
-#save the results in a dictionary like this
-#one for each wing, 2 in total
-#here we group togheter general and biased, if we want to analyse separately we just use the fact that the first 5
-#are always the general and the last five are always the biased
-#user_id:dict{username: .. , password: .. , session_id: {query : [top 10 results ranked]}}
-def create_results():
-    #create the results dictionary
-    usernames = ['ggjlbwviowbepibw@outlook.com'] #usernames list
-    passwords = ['lea0p0begathe0'] #passwords list
-    user_ids = list(range(1, 21)) #userids list
+#obtain users and passwords list from the files
+def users_passwords(file):
+    u_p = {}
+    u_p.update({'usernames': []})
+    u_p.update({'passwords': []})
+    with open(file) as f:
+        for line in f:
+            line = line.replace(" ", "")
+            words = line.split('-')
+            u_p['usernames'].append(words[0])
+            u_p['passwords'].append(words[1].replace('\n', ''))
+    return u_p
+
+#create results dictionary
+def create_results(file):
+    u_p = users_passwords(file)
+    usernames = u_p['usernames']  # usernames list
+    passwords = u_p['passwords']  # passwords list
+    user_ids = list(range(1, 11)) #userids list
 
     results = {}
-    for id in user_ids[:1]:
+    for id in user_ids:
         id_dict = {'username': usernames[id - 1], 'password': passwords[id - 1]}
         results.update({id: id_dict})
 
@@ -58,6 +67,8 @@ def login(driver, results, user_id):
     time.sleep(4)
     driver.find_element(By.ID, "idSIButton9").click()
     time.sleep(4)
+    driver.find_element(By.ID, "idSIButton9").click()
+    time.sleep(4)
     driver.get("https://www.bing.com/news")
     time.sleep(4)
     return driver
@@ -70,12 +81,13 @@ def search_news(driver, query):
     q.send_keys(Keys.ENTER)
     time.sleep(5)
 
+#save the first 10 urls of the search page
 def save_results(driver, results, query, session_id, user_id):
     allurls = driver.find_elements(By.CLASS_NAME, 'title')
     for url in allurls[:10]:
         results[user_id][session_id][query].append(url.get_attribute('href'))
     time.sleep(2)
-    driver.back()
+    driver.execute_script("window.history.go(-1)")
     time.sleep(3)
 
 def user_session(results, user_id, session_id, queries):
@@ -84,7 +96,7 @@ def user_session(results, user_id, session_id, queries):
     results[user_id].update({session_id: {}})#add the session to the user in the results dictionary
     #for each query
     for category in queries.keys():#general, biased
-        for query in queries[category][:1]:
+        for query in queries[category]:
             results[user_id][session_id].update({query: []})#add the query to the session in the results dicitonary
             search_news(driver, query)#search the query
             save_results(driver, results, query, session_id, user_id)#save the first 10 results
@@ -102,8 +114,8 @@ def browsing_session(results_rightwing, results_leftwing, queries, session_id):
 
 def main():
     #RESULTS, TO RUN JUST IN THE FIRST SESSION, to create the dictionary
-    results_rightwing_env = create_results()
-    results_leftwing_env = create_results()
+    results_rightwing_env = create_results('users_right.txt')
+    results_leftwing_env = create_results('users_left.txt')
     #we save the dicitionary in a json and we reuploaded it for the next sessions
     #with open('results_rightwing_env.json') as json_file:
         #results_rightwing_env = json.load(json_file)
@@ -116,9 +128,9 @@ def main():
     browsing_session(results_rightwing_env, results_leftwing_env, q_env, 1)
 
     #save the session results in the results dictionary
-    with open("results_rw_env.json", "w") as outfile:
+    with open("results_rw_env.json", "a") as outfile:
          json.dump(results_rightwing_env, outfile)
-    with open("results_lw_env.json", "w") as outfile:
+    with open("results_lw_env.json", "a") as outfile:
          json.dump(results_leftwing_env, outfile)
 
 main()

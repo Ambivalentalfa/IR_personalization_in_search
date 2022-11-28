@@ -31,3 +31,8 @@ user_id:dict{username: .. , password: .. , session_id: {query : [top 10 results 
 one for left one for right, 60 sec between each other
 the first 5 queries are the general the last 5 are the biased
 
+methodology:
+- run testing_profiles.py
+- run training_profiles, the first time with create results, the other ones reading from json files, change the id_session number
+- 4 days, morning and afternoon
+- run testing_profiles.py again without create results

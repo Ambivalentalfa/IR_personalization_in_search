@@ -1,10 +1,7 @@
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
 import time
-import random
 import json
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.service import Service
@@ -37,6 +34,7 @@ def create_results(file):
 
     return results
 
+#read the queries from file
 def query_todict(file):
     q_dict={}
     with open(file, encoding='utf-8-sig') as f:
@@ -137,23 +135,16 @@ def browsing_session(results_rightwing, results_leftwing, queries, session_id):
 ################
 
 def main():
-    #RESULTS, TO RUN JUST IN THE FIRST SESSION, to create the dictionary
+
     results_rightwing_env = create_results('users_right.txt')
     results_leftwing_env = create_results('users_left.txt')
-    #we save the dicitionary in a json and we reuploaded it for the next sessions
-    #with open('results_rightwing_env.json') as json_file:
-        #results_rightwing_env = json.load(json_file)
 
     #ENVIROMENTAL QUERIES
     fileenv = "Qenv.txt"
     q_env = query_todict(fileenv)
 
-    #BROWSING SESSION HAVE TO CHANGE JUST THE SESSION_ID, here should be just 2 sessions
+    #BROWSING SESSION HAVE TO CHANGE JUST THE SESSION_ID
     browsing_session(results_rightwing_env, results_leftwing_env, q_env, 3)
-    # for id in list(range(1,11)):
-    #     driver = set_driver()
-    #     #login(driver, results_rightwing_env, id)
-    #     login(driver, results_leftwing_env, id)
 
     #save the session results in the results dictionary
     with open("results_rw_env_3.json", "a") as outfile:
@@ -162,6 +153,3 @@ def main():
          json.dump(results_leftwing_env, outfile)
 
 main()
-#f = open('results_lw_env.json')
-#data = json.load(f)
-#print(len(data['1']['1']['energias renovables posibilidades']))

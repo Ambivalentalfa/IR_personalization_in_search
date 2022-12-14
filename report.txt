@@ -1,0 +1,14 @@
+Starting session 1: 2022-12-07 08:39:44.833521
+Ending session 1: 2022-12-07 09:30:47.896824
+Starting session 2: 2022-12-07 13:21:41.072211
+Ending session 2: 2022-12-07 14:11:36.848138
+Starting session 3: 2022-12-08 08:21:28.649804
+Ending session 3: 2022-12-08 09:11:18.152373
+Starting session 4: 2022-12-08 17:08:13.556567
+Starting session 4: 2022-12-08 19:14:18.283127
+Ending session 4: 2022-12-08 19:24:54.436845
+Starting session 5: 2022-12-09 10:19:54.138913
+Starting session 5: 2022-12-09 12:16:03.336134
+Ending session 5: 2022-12-09 12:37:17.103647
+Starting session 6: 2022-12-09 16:17:50.352093
+Ending session 6: 2022-12-09 17:07:02.170530

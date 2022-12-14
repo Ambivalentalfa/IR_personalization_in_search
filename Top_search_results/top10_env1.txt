@@ -1,0 +1,25 @@
+TOP 10 Left Wing:
+https://www.heraldo.es/noticias/internacional/2022/11/13/cambio-climatico-tambien-se-cobra-victimas-en-silencio-1612169.html
+https://www.cuatro.com/cuatroaldia/letstalkabouteupork/20221111/granja-porcina-lleida-interporc-producto-calidad-asequible-respetuoso-medio-ambiente_18_07959673.html
+https://www.eltiempo.com/vida/medio-ambiente/quieren-producir-en-colombia-la-carne-de-res-mas-sostenible-del-mundo-716787
+https://www.elespanol.com/enclave-ods/historias/20220128/teorias-negacionistas-cambio-climatico-desmontadas-cientifico-csic/645435949_0.html
+https://www.heraldo.es/noticias/sociedad/2022/11/03/cambio-climatico-desaparecer-tercio-glaciares-protegidos-1609910.html
+https://www.heraldo.es/noticias/sociedad/2022/11/10/mundo-probablemente-calentara-mas-alla-limite-grados-pero-aun-se-puede-frenar-calentamiento-maximo-1611605.html
+https://www.vozpopuli.com/opinion/crecimiento-no-cambio-climatico.html
+https://www.eleconomista.es/tags/cambio-climatico
+https://www.elperiodico.com/es/sociedad/20221106/cambio-climatico-acelerando-anuncio-ciencia-78149973
+https://www.sdpnoticias.com/negocios/gruma-continua-modernizandose-en-favor-del-medio-ambiente/
+
+TOP 10 Right Wing:
+https://www.heraldo.es/noticias/internacional/2022/11/13/cambio-climatico-tambien-se-cobra-victimas-en-silencio-1612169.html
+https://www.cuatro.com/cuatroaldia/letstalkabouteupork/20221111/granja-porcina-lleida-interporc-producto-calidad-asequible-respetuoso-medio-ambiente_18_07959673.html
+https://www.eltiempo.com/vida/medio-ambiente/quieren-producir-en-colombia-la-carne-de-res-mas-sostenible-del-mundo-716787
+https://www.heraldo.es/noticias/sociedad/2022/11/03/cambio-climatico-desaparecer-tercio-glaciares-protegidos-1609910.html
+https://www.heraldo.es/noticias/sociedad/2022/11/10/mundo-probablemente-calentara-mas-alla-limite-grados-pero-aun-se-puede-frenar-calentamiento-maximo-1611605.html
+https://www.eleconomista.es/tags/cambio-climatico
+https://www.elperiodico.com/es/sociedad/20221106/cambio-climatico-acelerando-anuncio-ciencia-78149973
+https://www.clarin.com/rural/precios-carne-estancados-retroceden-consumo-demanda-externa_0_8gv4EbFnKb.html
+https://www.sdpnoticias.com/negocios/gruma-continua-modernizandose-en-favor-del-medio-ambiente/
+https://peru21.pe/cheka/upcycling-la-tendencia-que-busca-minimizar-el-impacto-de-la-moda-en-el-medio-ambiente-moda-responsable-industria-textil-upcycling-fast-fashion-concienciacion-ambiental-sustentabilidad-tierra-noticia/
+
+Jaccard similarity index: 0.6667

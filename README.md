@@ -3,8 +3,8 @@ This project aims to explore differences in environmental queries results betwee
 
 In this repository are collected the files used along the project:
 - code_explore_results(dir): codes and outcomes of results exploration.
-- results_data(dir): environmental queries data.
-- training_data(dir): training queries data.
+- Testing_data(dir): testing environmental queries data.
+- Training_data(dir): training queries data.
 - Qenv.txt: environmental queries used.
 - Qleft.txt: left wing users queries used.
 - Qright.txt: right wing users queries used.
